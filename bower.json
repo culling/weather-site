@@ -1,0 +1,23 @@
+{
+  "name": "weather-site",
+  "description": "Free code camp Weather Site",
+  "main": "server.js",
+  "authors": [
+    "culling <culling66@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "materialize": "latest",
+    "react":"latest"
+  }
+}
