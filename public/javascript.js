@@ -131,7 +131,7 @@ function getLocation(done) {
  //           geoPositionCoords = geoPositionObject.coords ;
     console.log('getLocation called');
     var locationByIpAddress;
-    var locationByIpAddressURL = "http://freegeoip.net/json/" ;
+    var locationByIpAddressURL = "//freegeoip.net/json/" ;
 
     jQuery.getJSON(locationByIpAddressURL,
                 function (returnValue){
