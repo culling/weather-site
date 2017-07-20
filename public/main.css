@@ -1,0 +1,40 @@
+    .displayType{
+        background-color: #505050;
+        border-radius: 50%;
+        font-size: 110%;
+        color: #3498db;
+    }
+
+    body {background-color: black ;
+          background-image: url(//upload.wikimedia.org/wikipedia/commons/6/6a/Summer_time.jpg);
+          background-size: cover;      
+    }
+
+    .weatherContainer {background-color: darkslategrey; }
+    .weatherHeader{
+        color: darkgray;
+    }
+    .weatherText{
+        font-size: 180%;
+        color: white;
+    }
+    .weatherLocation{
+        font-size: 150%;
+        color: #909090;
+        text-align:end;
+    }
+
+    .loader {
+        border: 16px solid #f3f3f3; /* Light grey */
+        border-top: 16px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        animation: spin 2s linear infinite;
+        align-content:center;
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
