@@ -149,7 +149,7 @@ function getLocation(done) {
 
 function getWeather(){
     getLocation(function(lat, lon){
-        var weatherURL = "http://api.openweathermap.org/data/2.5/weather?" +
+        var weatherURL = "/data/2.5/weather?" +
                 "lat="  + lat +
                 "&lon=" + lon +
                 "&appid=" + openWeatherMapApiKey ;
