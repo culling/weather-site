@@ -13,7 +13,6 @@ var http = require("http");
 
 
 router.get("/data/2.5/weather", function(req, res){
-  //http://api.openweathermap.org/data/2.5/weather?lat=-31.9674&lon=115.8621&appid=e2b16ccfd1a9e3611dcdd1b1ee91e08f
   var reqQuery    = querystring.parse(url.parse(req.url).query);
   console.log(reqQuery);
   console.log(req.url);
